@@ -1,0 +1,21 @@
+.header {
+    padding: 0 0.625rem;
+    margin-bottom: 1.875rem;
+    background: rgba(46, 41, 68, 0.785) ;
+  }
+  
+  .description {
+    font-style: italic;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+  }
+
+  .text-center {
+    text-align: center;
+  }
+
+  #title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+  }

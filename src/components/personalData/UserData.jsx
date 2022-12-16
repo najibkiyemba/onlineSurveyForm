@@ -7,6 +7,7 @@ const UserData = () => {
     return (
         <div className="container">
             <form id="survey-form">
+                <form>
                 <div className="form-group">
                     <label
                       id="name-label"
@@ -61,7 +62,7 @@ const UserData = () => {
                     </select>
                 </div>
                 <div className="form-group">
-                    <p>Would you recommend online teaching to a friend.</p>
+                    <p>Would you recommend this program to a friend?</p>
                     <label>
                         <input className="input-radio" value="definitely" name="user" type="radio"/> Definitely
                     </label><br/>
@@ -73,17 +74,24 @@ const UserData = () => {
                     </label>
                 </div>
                 <div className="form-group">
-                    <p>What do you like most during online education?</p>
+                    <p>What did you like most during this free program?</p>
                     <select className="form-control" id="most-like" name="mostLike" required>
                         <option value selected disabled>Select an option</option>
-                        <option value="challenges">Challenges</option>
-                        <option value="projects">Projects</option>
-                        <option value="community">Community</option>
-                        <option value="openSource">Open Source</option>
+                        <option value="github">Github</option>
+                        <option value="git">Git</option>
+                        <option value="html">Html</option>
+                        <option value="css">Css</option>
+                        <option value="javascript">Javascript</option>
+                        <option value="instructors">Instructors</option>
+                        <option value="bootstrap">Bootstrap</option>
+                        <option value="codecademy">Codecademy</option>
+                        <option value="colleagues">Colleagues</option>
+                        <option>slack(platform)</option>
                         <option value="other">Other</option>
                     </select>
                 </div>
                 <Optional/>
+                </form>
             </form>
         
         </div>
